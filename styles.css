@@ -14,6 +14,8 @@
     --yellow: #F4D04E;
     --gray-950: #111111;
     --gray-500: #6b6b6b;
+
+    --ff-main: "Figtree", sans-serif;
 }
 
 body {
@@ -35,9 +37,12 @@ body {
     box-shadow: 7px 7px var(--gray-950);
 }
 
-.blog-image {
-    width: 100%;
+.card img{
+    max-width: 100%;
     object-fit: fill;
+}
+
+.blog-image {
     border-radius: 10px;
     margin-bottom: 20px;
 }
@@ -86,7 +91,6 @@ body {
 
 .author img {
     width: 35px;
-    object-fit: fill;
 }
 
 .author-name {
@@ -112,6 +116,4 @@ body {
     .description {
         font-size: 14px;
     }
-
-
 }
