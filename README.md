@@ -28,7 +28,7 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
+- Solution URL: [My solution](https://www.frontendmentor.io/solutions/resposive-blog-card-VseKhKdFQv)
 - Live Site URL: [Demo](https://mohamed-devp.github.io/blog-card/)
 
 ## My process
