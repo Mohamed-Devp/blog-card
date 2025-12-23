@@ -10,7 +10,6 @@ This is a solution to the [Blog preview card challenge on Frontend Mentor](https
   - [Links](#links)
 - [My process](#my-process)
   - [Built with](#built-with)
-  - [What I learned](#what-i-learned)
 - [Author](#author)
 
 ## Overview
@@ -25,20 +24,20 @@ Users should be able to:
 
 ### Screenshot
 
-![](./screenshot.jpg)
+![Desktop preview screenshot](./public/images/desktop-preview.png)
 
 ### Links
 
-- Solution URL: [here!](https://your-solution-url.com)
-- Live Site URL: [here!](https://your-live-site-url.com)
+- Solution URL: [here!](https://github.com/Mohamed-Devp/blog-card)
+- Live Site URL: [here!](https://mohamed-devp.github.io/blog-card/)
 
 ## My process
 
 ### Built with
 
-
-### What I learned
-
+- Semantic HTML5 markup
+- CSS custom properties
+- CSS flexbox
 
 ## Author
 
