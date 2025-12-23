@@ -121,6 +121,12 @@ a {
 
 .blog-card__heading a {
     color: inherit;
+    transition: color 0.15s ease-in;
+}
+
+.blog-card__heading a:hover,
+.blog-card__heading a:focus {
+    color: hsl(var(--yellow));
 }
 
 .blog-card__summary {
@@ -168,5 +174,11 @@ a {
 
     .blog-card__summary {
         font-size: 1.4rem;
+    }
+}
+
+@media (prefers-reduced-motion: reduce) {
+    .blog-card__heading a {
+        transition: none;
     }
 }
