@@ -69,6 +69,10 @@ a {
   BLOG CARD
   ==============================
 */
+.blog-card-container {
+    perspective: 1200px;
+}
+
 .blog-card {
     display: flex;
     flex-direction: column;
@@ -79,6 +83,7 @@ a {
     border-radius: 20px;
     background-color: hsl(var(--white));
     box-shadow: 8px 8px hsl(0 0% 0%);
+    transition: transform 0.05s ease-in;
 }
 
 .blog-card__cover {
@@ -178,7 +183,7 @@ a {
 }
 
 @media (prefers-reduced-motion: reduce) {
-    .blog-card__heading a {
+    .blog-card, .blog-card__heading a {
         transition: none;
     }
 }
